@@ -71,7 +71,7 @@ class App {
           this._renderUsers(user);
         });
       })
-      .catch((err) => console.log(err.message))
+      .catch((err) => console.error(err.message))
       .finally(() => {
         usersContainer.style.opacity = 1;
         sortSelection.style.opacity = 1;
