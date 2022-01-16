@@ -1,3 +1,5 @@
+'use strict';
+
 const usersContainer = document.querySelector('.users-container');
 const popupContainer = document.querySelector('.popup-container');
 const sortSelection = document.querySelector('.sort-selection');
